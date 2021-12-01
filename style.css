@@ -67,7 +67,7 @@ h1{
 }
 #baby{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, #f60656,#15e453);
+    border-image: linear-gradient(180deg, #f60615e453);56,#
     border-image-slice: 1;
 }
 footer{
@@ -75,4 +75,5 @@ footer{
     padding-top: 50px;
     padding-bottom: 20px;
     text-align: center;
+    background-image: linear-gradient(90deg, #1909f546,#ff440036);
 }
