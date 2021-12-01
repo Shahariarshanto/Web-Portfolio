@@ -5,10 +5,10 @@ body{
 section{
     padding-top: 25px;
     padding-bottom: 25px;
+    margin-top: 10px;
 }
 .top-banar{
     height: 500px;
-    border: 1px solid red;
     background-image: url("images\top-banner.png");
     background-repeat: no-repeat;
 }
@@ -25,7 +25,7 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;;
 }
 .link-btn{
     text-decoration: none;
@@ -38,10 +38,41 @@ h1{
 }
 .dream-area{
     height: 500px;
-    border: 1px solid red;
     background-repeat: no-repeat;
+    background-image: url("images/dream-bg.png");
+    background-position: right;
 }
 .dream-mark{
-    border: 1px solid olivedrab;
     margin-top: 80PX;
+}
+.expreance-ariea{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 150px;
+}
+.expreance-ariea .ex{
+    margin-left: 4%;
+
+}
+.shadow-experi{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 60%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #1100ff,#ff4500);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #f60656,#15e453);
+    border-image-slice: 1;
+}
+footer{
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
 }
